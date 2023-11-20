@@ -1,3 +1,4 @@
+import Header from '@/src/components/navigation/Header';
 import { Locale, i18n } from '@/src/i18n.config';
 import { getDictionary } from '@/src/lib/lang';
 import type { Metadata, ResolvingMetadata } from 'next';
@@ -35,6 +36,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body className={inter.className}>
+        <Header lang={lang} />
         <main>{children}</main>
       </body>
     </html>

@@ -16,5 +16,5 @@ export async function generateMetadata(
 }
 
 export default function Page({ params, searchParams }: Props) {
-  return <div>Test</div>;
+  return <div>AboutPage</div>;
 }

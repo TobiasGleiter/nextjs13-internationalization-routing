@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "دعم تعدد اللغات في Next.js 13",
+    "description": "هذا الموقع يستخدم دعم تعدد اللغات المدمج في Next.js 13."
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "about": "حول"
+  },
+  "page": {
+    "home": {
+      "title": "مرحباً بك في NextJs i18n",
+      "description": "التدويل في تطبيق NextJs 13 راوتر"
+    },
+    "about": {
+      "title": "معلومات عنا",
+      "description": "هذه هي صفحة حول"
+    }
+  }
+}
