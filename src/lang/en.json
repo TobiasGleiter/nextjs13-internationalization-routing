@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "Next.js 13 build in i18n suppport.",
+    "description": "This Website uses the Next.js 13 build in i18n suppport for Multilanguage."
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Welcome to NextJs i18n",
+      "description": "Internationalization in NextJs 13 App router"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
+    }
+  }
+}
