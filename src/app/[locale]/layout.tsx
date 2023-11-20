@@ -34,6 +34,13 @@ export default async function LocaleLayout({
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
 
+  let messages;
+  try {
+    messages = (await import(`../../lang/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
+
   // Enable static rendering
   unstable_setRequestLocale(locale);
 

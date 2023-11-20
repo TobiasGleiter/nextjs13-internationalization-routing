@@ -8,6 +8,10 @@ export const pathnames = {
     en: '/pathnames',
     de: '/pfadnamen',
   },
+  '/blogs': {
+    en: '/blogs-en',
+    de: '/blogs-de',
+  },
 } satisfies Pathnames<typeof locales>;
 
 export type AppPathnames = keyof typeof pathnames;

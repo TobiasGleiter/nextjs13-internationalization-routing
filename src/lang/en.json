@@ -7,6 +7,10 @@
     "title": "Pathnames",
     "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
   },
+  "BlogsPage": {
+    "title": "Blogs",
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/blogs-en</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/blogs-de</code>).</p>"
+  },
   "Error": {
     "title": "Something went wrong!",
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
@@ -16,7 +20,7 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Next.js and next-intl example"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -24,7 +28,8 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "pathnames": "Pathnames",
+    "blogs": "Blogs"
   },
   "PageLayout": {
     "links": {
